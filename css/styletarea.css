@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif; 
+  background-color: rgb(184, 192, 201);
+}
+.imagen-perfil {
+  width: 300px;
+  border-radius: 50%;
+  -webkit-box-shadow: 11px 6px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 6px 20px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 6px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.header {
+    color: rgb(131, 27, 27);
+  padding-top: 0;
+  background: url(../imagenes/images.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cont-presentacion {
+  text-align: center;
+}
+.cont-datos {
+  padding: 10px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: 500px;
+  margin-right: 500px;
+  justify-content: space-between;
+}
+.cont-datos a {
+  font-size: 30px;
+}
+.cont-datos img {
+  width: 30px;
+}
+
+/*Seccion 2 */
+.titulo {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10vh;
+  font-weight: 700;
+}
+.cont-yo {
+  text-align: center;
+  margin-left: 500px;
+  margin-right: 500px;
+  font-size: 20px;
+  font-weight: 700;
+  display: block;
+}
+.section2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section2 h1 {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.section2 img {
+  width: 60px;
+}
+.cont-semana a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer {
+  color: white;
+  background-size: cover;
+  height: 30vh;
+  background-color: black;
+}
