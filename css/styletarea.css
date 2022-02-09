@@ -16,9 +16,10 @@ body {
 .header {
     color: rgb(131, 27, 27);
   padding-top: 0;
-  background: url(../imagenes/images.jpg);
+  /*
+  background: url(../imagenes/images.jpg);*/
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
 }
 .cont-presentacion {
   text-align: center;
