@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./reto7.css">
     <title>Reto 7</title>
 </head>
 
@@ -18,50 +19,50 @@
     <section class="container vh-100 d-flex align-items-center justify-content-center">
         <div class="text-start w-75"">
             <h6>GitHub finder</h6>
-            <div class=" row">
+            <div class="row bg-blue-dark">
             <div class="col-md-10">
-                <input type="text" class="form-control" placeholder="Buscar usuario">
+                <input id="github-search" type="text" class="form-control" placeholder="Buscar usuario">
             </div>
             <div class="col-md-2">
                 <div class="d-grid gap-2">
-                    <button class="btn btn-primary">Search</button>
+                    <button id="github-action-search" class="btn btn-primary">Search</button>
                 </div>
             </div>
         </div>
 
-        <div class="cold-md-12 mt-4">
-            <div class="card">
-                <div class="card-body">
+        <div class="cold-md-12 mt-4 ">
+            <div class="card bg-blue-dark">
+                <div class="card-body ">
                     <div class="row">
                         <div class="col-md-2">
-                            <img id="img-profile" src="https://pbs.twimg.com/media/EmUM83TXIAAss5k.png" alt="" width="100" height="100"
-                                class="rounded-circle img-fluid">
+                            <img id="img-profile" src="https://pbs.twimg.com/media/EmUM83TXIAAss5k.png" alt=""
+                                width="100" height="100" class="rounded-circle img-fluid">
                         </div>
                         <div class="col-md-10">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <h4>The Octocat</h4>
-                                    <p class="text-primary">@Octocat</p>
-                                    <p>This profile has no bio</p>
+                                    <h4 id="name-user">The Octocat</h4>
+                                    <p id="github-name-user" class="text-primary">@Octocat</p>
+                                    <p id="bio-user">This profile has no bio</p>
                                 </div>
                                 <div class="col-md-6 text-end">
-                                    <p>Joined 25 Jun 2011</p>
+                                    <p id="joined-user">Joined 25 Jun 2011</p>
                                 </div>
                                 <div class="col-md-12">
-                                    <div class="card">
+                                    <div class="card bg-blue-dark-dark">
                                         <div class="card-body">
                                             <div class="row">
                                                 <div class="col-md-4">
                                                     <p>Repos</p>
-                                                    <h4>8</h4>
+                                                    <h4 id="repos">8</h4>
                                                 </div>
                                                 <div class="col-md-4">
                                                     <p>Followers</p>
-                                                    <h4>3938</h4>
+                                                    <h4 id="followers">3938</h4>
                                                 </div>
                                                 <div class="col-md-4">
                                                     <p>Following</p>
-                                                    <h4>9</h4>
+                                                    <h4 id="following">9</h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -69,17 +70,22 @@
                                 </div>
                                 <div class="col-md-12">
                                     <div class="row">
-                                        <div class="col-md-6"> 
-                                            <p><i class="fa-solid fa-location-dot"></i>&nbsp; San Francisco</p>
+                                        <div class="col-md-6">
+                                            <!-- fa:font awesome: Libreria de iconos-->
+                                            <p><i class="fa-solid fa-location-dot"></i>&nbsp;<span
+                                                    id="location-user">San Francisco</span> </p>
                                         </div>
                                         <div class="col-md-6">
-                                            <p><i class="fa-brands fa-twitter"></i>&nbsp; Not Available</p>
+                                            <p><i class="fa-brands fa-twitter"></i>&nbsp;<span id="twitter-user">Not
+                                                    Available</span></p>
                                         </div>
                                         <div class="col-md-6">
-                                            <p><i class="fa-solid fa-link"></i>&nbsp; https://GitHub</p>
+                                            <p><i class="fa-solid fa-link"></i>&nbsp;<span
+                                                    id="github-user">https://GitHub</span></p>
                                         </div>
                                         <div class="col-md-6">
-                                            <p><i class="fa-solid fa-building"></i>&nbsp; @github</p>
+                                            <p><i class="fa-solid fa-building"></i>&nbsp;<span
+                                                    id="company-user">@github</span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -91,7 +97,7 @@
         </div>
         </div>
     </section>
-
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>

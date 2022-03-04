@@ -1,0 +1,14 @@
+body{
+    font-family:"Fredoka",sans-serif;
+    background-color: rgb(4, 12, 49);
+}
+section{
+    color: white;
+}
+.bg-blue-dark{
+    background-color: rgb(4, 9, 58);
+    border-radius: 12px;
+}
+.bg-blue-dark-dark{
+    background-color: rgb(3, 7, 46);
+}
