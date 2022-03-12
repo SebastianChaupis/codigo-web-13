@@ -1,0 +1,10 @@
+.card-custom-body{
+    height: 45vh !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    display: flex;
+    align-items: start;
+    justify-content:end;
+    flex-direction: column;
+}

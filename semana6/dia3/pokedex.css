@@ -1,0 +1,18 @@
+body{
+    background-image: url('https://1.bp.blogspot.com/-FIeIAr3KxGo/Xvc4gQwEk7I/AAAAAAAAZ5w/AG17D-fNeTQPMBW6bIGgcdddpgXTckX-ACLcBGAsYHQ/s1600/7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.text-title{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 1.2em;
+}
+.btn-primary{
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 1.2em;
+}
