@@ -26,3 +26,19 @@ li a {
     margin-right: 50px;
     border: solid;
 }
+.video{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.title{
+    font-size: 1.2em;
+    color: rgb(13, 13, 163);
+}
+.subtitle{
+    font-size: 0.9em;
+    color: #999;
+}
+.gender-movie{
+    color:rgb(247, 66, 66)
+}
