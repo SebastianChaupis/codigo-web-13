@@ -32,6 +32,11 @@ body {
   margin-top: 15%;
   margin-bottom: 20%;
 }
+.div-content-text{
+  background-color: rgb(209, 207, 207);
+  border-radius: 6px;
+  padding: 50px;
+}
 .div-cont{
   margin-bottom: 10%;
   margin-left: 10%;
